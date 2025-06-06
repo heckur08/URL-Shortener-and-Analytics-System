@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>URL Shortener</title>
+  <script defer src="/static/script.js"></script>
+</head>
+<body>
+  <h2>Shorten a URL</h2>
+  <input type="text" id="longUrl" placeholder="Enter long URL">
+  <button onclick="shorten()">Shorten</button>
+  <p id="shortResult"></p>
+
+  <h3>Check Stats</h3>
+  <input type="text" id="shortCode" placeholder="Enter short code">
+  <button onclick="getStats()">Get Stats</button>
+  <pre id="statsResult"></pre>
+</body>
+</html>
