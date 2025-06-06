@@ -181,15 +181,6 @@ pytest tests/
 
 ---
 
-## 📝 Future Improvements
-
-* Add user login / authentication
-* UI for managing all shortened links
-* Custom short code support
-* Rate limiting per IP using Redis
-
----
-
 ## 📌 Author
 
 **Anurag Singh**
